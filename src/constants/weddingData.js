@@ -35,13 +35,13 @@ export const EVENT_LOCATIONS = {
   GROOM: {
     address: "Tư gia nhà trai, 456 Đường Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1328.5691732733314!2d105.8798757521265!3d20.718173871872988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135c9006b91e13b%3A0xffc6e8637f2e1c7!2zTmjDoCB2xINuIGhvw6EgdGjDtG4g4buobmcgQ-G7rQ!5e0!3m2!1svi!2s!4v1755502801120!5m2!1svi!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7457.027036673311!2d106.47069444517261!3d20.851342299215542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135889b5bb0e3f5%3A0xb95ace36567c8880!2zVHLGsOG7nW5nIFRp4buDdSBo4buNYyBUaGFuaCBCw61uaA!5e0!3m2!1svi!2s!4v1787243874123!5m2!1svi!2s",
   },
   BRIDE: {
     address:
       "Tư gia nhà gái, 123 Đường Hoa Mai, Quận Phú Nhuận, TP. Hồ Chí Minh",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3727.302251765549!2d106.42828327613498!3d20.90015598071724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313585d23afcde1b%3A0xe5b7baddd3b52bae!2zMDk2IE5ndXnhu4VuIEjhuqNpIFRoYW5oLCBUVC4gVGhhbnhgIFRoYW5oIEjDoCwgVGhhbmggSMOgLCB04buHdCBOYW0!5e0!3m2!1svi!2s!4v1755503369215!5m2!1svi!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1317.79694458082!2d106.4256392773503!3d20.900543582361962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313585d701e7b435%3A0x68342a0bb42d6209!2zTWnhur91IEdp4bq_bmcgVnVh!5e0!3m2!1svi!2s!4v1787243723349!5m2!1svi!2s",
   },
 };
 

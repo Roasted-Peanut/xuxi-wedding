@@ -34,7 +34,7 @@ export default function App() {
   return (
     <>
       <MusicPlayer />
-      <WishCarousel  />
+      {/* <WishCarousel  /> */}
       <div className="app">
         <CoverSection />
         <CoupleSection />

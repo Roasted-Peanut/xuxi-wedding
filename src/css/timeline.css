@@ -1,0 +1,56 @@
+.timeline {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.timeline-inner {
+  width: 100%; /* bỏ max-width */
+  margin: 0;
+  padding: 0; /* bỏ padding ngang */
+}
+
+.timeline-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.timeline-text {
+  max-width: 800px; /* giới hạn chiều rộng trên PC */
+  margin: 0 auto; /* căn giữa khối */
+  text-align: center; /* căn giữa chữ */
+}
+
+@media (max-width: 768px) {
+  .timeline-text {
+    max-width: 100%; /* mobile vẫn full width */
+    padding: 0 14px; /* chừa khoảng 2 bên để không dính mép */
+  }
+}
+
+.timeline-names {
+  font-size: 25px;
+  color: #e87a90;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.timeline-parents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  font-size: 20px;
+  font-family: "emoji";
+  max-width: 1000px;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  .timeline-parents {
+    gap: 6px;
+    font-size: 18px; /* thu nhỏ để vừa màn hình */
+  }
+}

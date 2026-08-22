@@ -97,18 +97,18 @@ export const WEDDING_IMAGES = [
   "./wedding/2P1A2853.JPG", // 12
   "./wedding/2P1A2869.JPG", // 13
   "./wedding/2P1A2935.JPG", // 14
-  "public/wedding/2P1A2943.JPG",
-  "public/wedding/2P1A3002.JPG",
-  "public/wedding/2P1A3014.JPG",
-  "public/wedding/2P1A3024.JPG",
-  "public/wedding/2P1A3042.JPG",
-  "public/wedding/2P1A3043.JPG",
-  "public/wedding/2P1A3051.png",
-  "public/wedding/2P1A3068.JPG",
-  "public/wedding/2P1A3075.JPG",
-  "public/wedding/2P1A3090.JPG",
-  "public/wedding/2P1A3147.JPG",
-  "public/wedding/2P1A3170.JPG"
+  "./wedding/2P1A2943.JPG",
+  "./wedding/2P1A3002.JPG",
+  "./wedding/2P1A3014.JPG",
+  "./wedding/2P1A3024.JPG",
+  "./wedding/2P1A3042.JPG",
+  "./wedding/2P1A3043.JPG",
+  "./wedding/2P1A3051.png",
+  "./wedding/2P1A3068.JPG",
+  "./wedding/2P1A3075.JPG",
+  "./wedding/2P1A3090.JPG",
+  "./wedding/2P1A3147.JPG",
+  "./wedding/2P1A3170.JPG"
 ];
 // Gift information
 export const GIFT_INFO = [

@@ -44,10 +44,10 @@ export default function App() {
         <WeddingAlbumSection />
       </div>
       <h3 style={{ textAlign: "center" }}>Rất vui khi được đón tiếp Quý Vị</h3>
-      <p style={{ textAlign: "center" }}>
+      {/* <p style={{ textAlign: "center" }}>
         {CONTACT_INFO.BRIDE.name}: {CONTACT_INFO.BRIDE.phone}{" "}
         {CONTACT_INFO.GROOM.name}: {CONTACT_INFO.GROOM.phone}
-      </p>
+      </p> */}
     </>
   );
 }

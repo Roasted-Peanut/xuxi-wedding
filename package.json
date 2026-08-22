@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://roasted-peanut.github.io/wedding-invite",
+  "homepage": "https://roasted-peanut.github.io/xuxi-wedding",
   "eslintConfig": {
     "extends": [
       "react-app",

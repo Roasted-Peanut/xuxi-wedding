@@ -81,34 +81,33 @@ Thời điểm đó, chúng mình đều đang độc thân. Huy ở Hải Phòn
 ];
 
 // Wedding slider images
-export const WEDDING_IMAGES = [ 
-  "./wedding/2P1A2456.JPG", // 0
-  "./wedding/2P1A2465.JPG", // 1
-  "./wedding/2P1A2469.JPG", // 2
-  "./wedding/2P1A2555.JPG", // 3
-  "./wedding/2P1A2582.JPG", // 4
-  "./wedding/2P1A2606.JPG", // 5
-  "./wedding/2P1A2646.JPG", // 6
-  "./wedding/2P1A2668.JPG", // 7
-  "./wedding/2P1A2706.JPG", // 8
-  "./wedding/2P1A2740.JPG", // 9
-  "./wedding/2P1A2750.JPG", // 10
-  "./wedding/2P1A2843.JPG", // 11
-  "./wedding/2P1A2853.JPG", // 12
-  "./wedding/2P1A2869.JPG", // 13
-  "./wedding/2P1A2935.JPG", // 14
-  "./wedding/2P1A2943.JPG",
-  "./wedding/2P1A3002.JPG",
-  "./wedding/2P1A3014.JPG",
-  "./wedding/2P1A3024.JPG",
-  "./wedding/2P1A3042.JPG",
-  "./wedding/2P1A3043.JPG",
-  "./wedding/2P1A3051.png",
-  "./wedding/2P1A3068.JPG",
-  "./wedding/2P1A3075.JPG",
-  "./wedding/2P1A3090.JPG",
-  "./wedding/2P1A3147.JPG",
-  "./wedding/2P1A3170.JPG"
+export const WEDDING_IMAGES = [
+  "./wedding/01050b985130d06e89216.jpg",
+  "./wedding/08d9350d6fa5eefbb7b410.jpg",
+  "./wedding/0d4c20907a38fb66a22923.jpg",
+  "./wedding/299d76422ceaadb4f4fb18.jpg",
+  "./wedding/34d5cd0997a116ff4fb022.jpg",
+  "./wedding/356cbdb8e710664e3f019.jpg",
+  "./wedding/46b6c96993c1129f4bd016.jpg",
+  "./wedding/474c9ddcc774462a1f651.jpg",
+  "./wedding/494feed2b47a35246c6b5.jpg",
+  "./wedding/62f1ac2bf68377dd2e9226.jpg",
+  "./wedding/6c583b85612de073b93c21.jpg",
+  "./wedding/8b99824fd8e759b900f67.jpg",
+  "./wedding/8f06f6d5ac7d2d23746c12.jpg",
+  "./wedding/a08f6a1130b9b1e7e8a84.jpg",
+  "./wedding/ad5021847b2cfa72a33d8.jpg",
+  "./wedding/aeccb416eebe6fe036af25.jpg",
+  "./wedding/b08941191bb19aefc3a02.jpg",
+  "./wedding/b08d7d5e27f6a6a8ffe711.jpg",
+  "./wedding/b1a11b7c41d4c08a99c519.jpg",
+  "./wedding/b990474f1de79cb9c5f617.jpg",
+  "./wedding/bff21822428ac3d49a9b15.jpg",
+  "./wedding/ce7fa5a3ff0b7e55271a24.jpg",
+  "./wedding/d0dd8c0ed6a657f80eb713.jpg",
+  "./wedding/d4ad447c1ed49f8ac6c514.jpg",
+  "./wedding/e9a9b577efdf6e8137ce20.jpg",
+  "./wedding/ec02399d6335e26bbb243.jpg",
 ];
 // Gift information
 export const GIFT_INFO = [

@@ -125,7 +125,7 @@ const styles = {
   bg: {
     position: "absolute",
     inset: 0,
-    backgroundImage: `url(${WEDDING_IMAGES[0]})`,
+    backgroundImage: `url(${WEDDING_IMAGES[4]})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
   },

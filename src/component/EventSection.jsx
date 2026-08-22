@@ -13,18 +13,58 @@ export default function EventSection() {
             gap: 20,
             overflow: "hidden",
             flex: 1,
+            marginTop: 24
           }}
         >
           <div
             style={{
-              flexDirection: "row",
               display: "flex",
               alignItems: "center",
-              gap: 8,
+              width: "100%",
+              gap: 16,
+              color: "#7a5a3a",
             }}
           >
-            <h3 style={{ margin: 5 }}>LỄ VU QUY</h3>
-            <div style={{ flex: 1, height: 1, background: "#999" }} />
+            <h3
+              style={{
+                margin: 0,
+                // fontSize: 18,
+                fontWeight: 500,
+                letterSpacing: "2px",
+                whiteSpace: "nowrap",
+                // fontFamily: "'Cormorant Garamond', serif",
+              }}
+            >
+              LỄ VU QUY
+            </h3>
+
+            <div
+              style={{
+                flex: 1,
+                height: 1,
+                background:
+                  "linear-gradient(to right, transparent, #c8a98a, transparent)",
+                opacity: 0.8,
+              }}
+            />
+            <row>
+              <h3
+                style={{
+                  margin: 0,
+                  // fontSize: 16,
+                  fontWeight: 400,
+                  letterSpacing: "1.5px",
+                  whiteSpace: "nowrap",
+                  fontFamily: "'Cormorant Garamond', serif",
+                  color: "#8a6a4a",
+                }}
+              >
+                20 · 09 · 2026
+              </h3>
+              <div style={{ fontStyle: "italic", fontSize: 14 }}>
+                (Tức 10-08 năm Bính Ngọ)
+              </div>
+            </row>
           </div>
 
           <div
@@ -42,7 +82,7 @@ export default function EventSection() {
                 transition={{ duration: 1.5, delay: 0.3 }}
               >
                 <img
-                  src={WEDDING_IMAGES[5]}
+                  src={WEDDING_IMAGES[18]}
                   alt="Bride"
                   loading="lazy"
                   style={{
@@ -64,12 +104,11 @@ export default function EventSection() {
               >
                 {/* Thông tin */}
                 <div style={{ lineHeight: 1.8 }}>
-                  <strong>08:30 - Thứ 7</strong>
-                  <div>19-09-2026</div>
-                  <div style={{ fontStyle: "italic", fontSize: 14 }}>
-                    (Tức 09-08 năm Bính Ngọ )
+                  <strong>Thời gian đãi tiệc: 08:30</strong>
+                  <div style={{ marginTop: 4 }}>
+                    <strong>Nghi lễ diễn ra lúc 13:00</strong>
                   </div>
-                  <div style={{ marginTop: 8 }}>
+                  <div style={{ marginTop: 4 }}>
                     <strong>Tại tư gia nhà gái</strong>
                   </div>
                   <div className="event-map">
@@ -100,14 +139,54 @@ export default function EventSection() {
         >
           <div
             style={{
-              flexDirection: "row-reverse",
               display: "flex",
+              flexDirection: "row-reverse",
               alignItems: "center",
-              gap: 8,
+              width: "100%",
+              gap: 16,
+              color: "#7a5a3a",
             }}
           >
-            <h3 style={{ margin: 5 }}>LỄ THÀNH HÔN</h3>
-            <div style={{ flex: 1, height: 1, background: "#999" }} />
+            <h3
+              style={{
+                margin: 0,
+                // fontSize: 18,
+                fontWeight: 500,
+                letterSpacing: "2px",
+                whiteSpace: "nowrap",
+                // fontFamily: "'Cormorant Garamond', serif",
+              }}
+            >
+              LỄ THÀNH HÔN
+            </h3>
+
+            <div
+              style={{
+                flex: 1,
+                height: 1,
+                background:
+                  "linear-gradient(to right, transparent, #c8a98a, transparent)",
+                opacity: 0.8,
+              }}
+            />
+            <row>
+              <h3
+                style={{
+                  margin: 0,
+                  // fontSize: 16,
+                  fontWeight: 400,
+                  letterSpacing: "1.5px",
+                  whiteSpace: "nowrap",
+                  fontFamily: "'Cormorant Garamond', serif",
+                  color: "#8a6a4a",
+                }}
+              >
+                20 · 09 · 2026
+              </h3>
+              <div style={{ fontStyle: "italic", fontSize: 14 }}>
+                (Tức 10-08 năm Bính Ngọ)
+              </div>
+            </row>
           </div>
 
           <div
@@ -125,7 +204,7 @@ export default function EventSection() {
                 transition={{ duration: 1.5, delay: 0.3 }}
               >
                 <img
-                  src={WEDDING_IMAGES[12]}
+                  src={WEDDING_IMAGES[15]}
                   alt="Groom"
                   loading="lazy"
                   style={{
@@ -147,14 +226,14 @@ export default function EventSection() {
               >
                 {/* Thông tin */}
                 <div style={{ lineHeight: 1.8 }}>
-                  <strong>11:30 - Chủ Nhật</strong>
-                  <div>20-09-2026</div>
-                  <div style={{ fontStyle: "italic", fontSize: 14 }}>
-                    (Tức 10-08 năm Bính Ngọ )
+                  <strong>Thời gian đãi tiệc: 08:30</strong>
+                  <div style={{ marginTop: 4 }}>
+                    <strong>Nghi lễ diễn ra lúc 13:00</strong>
                   </div>
-                  <div style={{ marginTop: 8 }}>
+                  <div style={{ marginTop: 4 }}>
                     <strong>Tại tư gia nhà trai</strong>
                   </div>
+
                   <iframe
                     title="Google Map"
                     src={EVENT_LOCATIONS.GROOM.mapUrl}

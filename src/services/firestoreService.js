@@ -10,7 +10,7 @@ import { collection, doc, setDoc, getDocs, query, orderBy, onSnapshot } from "fi
  */
 export const saveUserWish = async (phone, name, wish) => {
     try {
-        await setDoc(doc(db, "wishes", phone), {
+        await setDoc(doc(db, "wishes-xuxi", phone), {
             phone,
             name,
             wish,
@@ -29,7 +29,7 @@ export const saveUserWish = async (phone, name, wish) => {
  */
 export const getAllWishes = async () => {
     try {
-        const querySnapshot = await getDocs(collection(db, "wishes"));
+        const querySnapshot = await getDocs(collection(db, "wishes-xuxi"));
         const list = [];
 
         querySnapshot.forEach((doc) => {
@@ -45,7 +45,7 @@ export const getAllWishes = async () => {
 
 export const listenWishes = (callback) => {
   const q = query(
-    collection(db, "wishes"),
+    collection(db, "wishes-xuxi"),
     orderBy("createdAt", "asc")
   );
 

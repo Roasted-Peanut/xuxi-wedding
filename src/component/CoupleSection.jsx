@@ -33,7 +33,7 @@ export default function CoupleSection() {
             <p>
               <strong>Bà:</strong> NguyễnThị Liên
             </p>
-            <p>Đội 5 thôn Thanh Lanh xã Hà Đông</p>
+            <p>Đội 5 thôn Thanh Lanh, xã Hà Đông, Hải Phòng</p>
           </motion.div>
           <motion.div>
             <div style={{ width: 20 }}></div>
@@ -56,7 +56,7 @@ export default function CoupleSection() {
             <p>
               <strong>Bà:</strong> Nguyễn Thị Thêu
             </p>
-            <p>Thôn 7 xã Thanh Hà</p>
+            <p>Thôn 7 xã Thanh Hà, Hải Phòng</p>
           </motion.div>
         </div>
         <div>
@@ -117,13 +117,6 @@ export default function CoupleSection() {
               marginTop: 16,
             }}
           />
-          <motion.h2
-            initial={{ opacity: 0, x: 120 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1.5, delay: 0.3 }}
-          >
-            Save The Date
-          </motion.h2>
         </div>
       </div>
     </section>

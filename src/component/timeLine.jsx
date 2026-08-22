@@ -1,51 +1,40 @@
-import React from "react";
-import { MESSAGES, COUPLE_INFO } from "../constants/weddingData";
+import "../css/timeline.css";
 
-const TimeLineSection = React.memo(() => {
+const events = [
+  {
+    title: "Nhà gái",
+    items: [
+      ["Thời gian đãi tiệc", "08:30"],
+      ["Nghi lễ Vu Quy", "13:00"],
+    ],
+  },
+  {
+    title: "Nhà trai",
+    items: [
+      ["Thời gian đãi tiệc", "08:30"],
+      ["Nghi lễ Thành Hôn", "15:00"],
+    ],
+  },
+];
+
+export default function TimeLineSection() {
   return (
-    <section className="timeline">
-      <h2 className="timeline-title">{MESSAGES.TIMELINE_TITLE}</h2>
-
-      <p className="timeline-text">{MESSAGES.TIMELINE_TEXT}</p>
-
-      <div className="timeline-parents">
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <strong>Chú Rể: </strong>
-          <p className="timeline-names">{COUPLE_INFO.GROOM.name}</p>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <strong>Cô Dâu: </strong>
-          <p className="timeline-names"> {COUPLE_INFO.BRIDE.name}</p>
-        </div>{" "}
-        <div>
-          <strong>Con ông:</strong> {COUPLE_INFO.GROOM.father}
-        </div>
-        <div>
-          <strong>Con ông:</strong> {COUPLE_INFO.BRIDE.father}
-        </div>
-        <div>
-          <strong>Con bà:</strong> {COUPLE_INFO.GROOM.mother}
-        </div>
-        <div>
-          <strong>Con bà:</strong> {COUPLE_INFO.BRIDE.mother}
-        </div>
+    <section className="timeline" aria-label="Lịch trình ngày cưới">
+      <div className="timeline-events">
+        {events.map((event) => (
+          <div className="timeline-event" key={event.title}>
+            <h3 className="timeline-event-title">{event.title}</h3>
+            <div className="timeline-event-list">
+              {event.items.map(([label, time]) => (
+                <div className="timeline-event-row" key={label}>
+                  <span>{label}</span>
+                  <strong>{time}</strong>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );
-});
-
-TimeLineSection.displayName = "TimeLineSection";
-
-export default TimeLineSection;
+}

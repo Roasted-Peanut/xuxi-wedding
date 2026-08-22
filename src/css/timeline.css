@@ -1,8 +1,42 @@
 .timeline {
   width: 100%;
   text-align: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding: 20px 0;
+}
+
+.timeline-events {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.timeline-event {
+  border-top: 2px solid #e87a90;
+  padding: 10px 8px 0;
+}
+
+.timeline-event-title {
+  color: #e87a90;
+  font-size: 22px;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+
+.timeline-event-list {
+  display: grid;
+  gap: 8px;
+}
+
+.timeline-event-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 15px;
+}
+
+.timeline-event-row strong {
+  color: #185036;
+  font-size: 22px;
 }
 
 .timeline-inner {
@@ -49,6 +83,19 @@
 }
 
 @media (max-width: 600px) {
+  .timeline-events {
+    gap: 4px;
+  }
+
+  .timeline-event {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .timeline-event-title {
+    font-size: 18px;
+  }
+
   .timeline-parents {
     gap: 6px;
     font-size: 18px; /* thu nhỏ để vừa màn hình */
